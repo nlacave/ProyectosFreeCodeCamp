@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inscripción Summer Camp</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <img src="https://static.vecteezy.com/system/resources/previews/009/378/119/non_2x/fire-transparent-free-png.png"
+                class="logo">
+            <h1 id="title">Formulario de Inscripción Summer Camp</h1>
+        </div>
+        <div id="espaciado"></div>
+        <div class="margin">
+            <form id="survey-form" required>
+                <p id="principal-description">Inscribite ahora al campamento de adolescentes de nuestra iglesia!</p>
+                <p id="description">Información de Contacto</p>
+                <label for="name" id="name-label">Nombre</label>
+                <input type="text" id="name" placeholder="Escribe tu Nombre" required>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Escribe tu Email" required>
+                <label for="number" id="number-label">Edad</label>
+                <input type="number" id="number" min="13" max="18" placeholder="Edad" required>
+                <p id="description">Dónde te vas a hospedar?</p>
+                <select id="dropdown">
+                    <option disable selected value>Elige una opción</option>
+                    <option value="habitacion">Habitación</option>
+                    <option value="carpa">Carpa</option>
+                </select>
+                <p id="description">Formás parte de un grupo de conexión?</p>
+                <label>
+                    <input type="Radio" value="si" name="grupo">Si
+                </label>
+                <label><input type="Radio" value="no" name="grupo">No</label>
+                <p id="description">Hace cuánto asistís a la iglesia?</p>
+                <select id="dropdown">
+                    <option disable selected value>Elegí una opción</option>
+                    <option value="estoy-comenzando-a-congregarme">Estoy empezando a congregarme</option>
+                    <option value="entre-1-y-2-años">Entre 1 y 2 años</option>
+                    <option value="entre-2-y-5-años">Entre 2 y 5 años</option>
+                    <option value="entre-5-y-10-años">Entre 5 y 10 años</option>
+                    <option value="mas-de-10-años">Más de 10 años</option>
+                </select>
+                <div class="actividades">
+                    <p id="description">Que actividades te gustaría ver en el campamento?</p>
+                    <label><input type="checkbox" name="actividades" value="carrera-olimpica">Carrera Olimpica</label>
+                    <label><input type="checkbox" name="actividades" value="noche-de-luces">Noche de Luces</label>
+                    <label><input type="checkbox" name="actividades" value="busqueda-del-tesoro">Busqueda del
+                        Tesoro</label><br>
+                    <label><input type="checkbox" name="actividades" value="bautismo">Bautismo</label>
+                    <label><input type="checkbox" name="actividades" value="actividad-haciendo-amistades">Actividad
+                        "Haciendo Amistades"</label>
+                </div>
+                <div class="guia">
+                    <p id="description">Quién es tu guia?</p>
+                    <label id="label-guia">Nombre<input type="text" id="nombre-guia"
+                            placeholder="Nombre del guia"></label>
+                    <label id="label-guia-2">Teléfono<input type="text" id="apellido-guia"
+                            placeholder="Teléfono del guia"></label>
+                </div>
+                <div class="consultas">
+                    <p id="description">Tenés alguna consulta o comentario que quieras hacer?</p>
+                    <textarea id="comentarios" cols="40" rows="8"></textarea>
+                </div>
+                <button id="submit" type="submit">Enviar Formulario</button>
+            </form>
+        </div>
+    </div>
+</body>
+<footer id="footer">
+    <p id="versiculo">Ahora ya no eres un esclavo sino un hijo de Dios, <br> y como eres su hijo, Dios te ha hecho su
+        heredero. Galatas 4.19</p>
+</footer>
+
+</html>

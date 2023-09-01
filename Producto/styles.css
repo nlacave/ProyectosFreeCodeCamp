@@ -1,0 +1,769 @@
+
+@media (max-width: 768px) {
+    #barra {
+      display: none;
+    }
+    html {
+        scroll-behavior: smooth;
+      }
+
+      main {
+        margin-top: -20px;
+      }
+
+      .slider {
+        width: 100%;
+        height: auto;
+        margin: 200px auto 0;
+        overflow: hidden;
+        display: block;
+      }
+
+      .slider ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: slide 20s infinite alternate ease-in-out;
+      }
+
+      .slider li {
+        list-style: none;
+        width: 100%;
+        margin: 0;
+      } 
+
+      .slider img {
+        width: 100%;
+        padding: 0;
+        height: auto;
+      }
+
+      @keyframes slide {
+        0% {margin-left: 0%;}
+        20% {margin-left: 0%;}
+      
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+      
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+      
+        75% {margin-left: -300%;}
+        95% {margin-left: -300%;}
+      }
+      
+      body {
+        font-family: Verdana, sans-serif, calibri;
+        margin: 0;
+        background-color: white;
+      }
+      
+      li {
+        list-style: none;
+        display: inline;
+        margin: 5px;
+        margin-left: 15px;
+        text-align: center;
+      }
+      
+      .nav-link {
+        text-decoration: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        padding: 5px;
+      }
+      
+      #barra2 a:hover {
+        background-color: #e91929;
+        border-radius: 5px;
+      }
+      
+      #footer a:hover {
+        padding: 5px;
+        background-color: #e91929;
+        border-radius: 5px;
+      }
+      
+      
+      a:link {
+        text-decoration: none;
+        color: #e91929;
+      }
+      
+      a:active {
+        color: white;
+      }
+      
+       a:visited {
+         text-decoration: none;
+         color: #e91929;
+       }
+      
+      #nav-bar{
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        color: black;
+        top: 0;
+        font-family: Lato, sans-serif, calibri;
+        font-weight: bold;
+      }
+
+      #barra2 {
+        padding: 0;
+      }
+
+
+
+      #header {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        top: 0;
+        opacity: 0.9;
+        z-index: 100;
+      }
+      
+      #header-img{
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        cursor: pointer;
+        margin-top: -50px;
+        margin-bottom: -70px;
+        text-align: center;
+      }
+      
+      #tel-logo{
+        width: 15px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      
+      #doc-logo {
+        width: 15px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      
+      #pers-logo {
+        width: 15px;
+        vertical-align: middle;
+        margin-right: 5px;
+        color: white;
+        
+      }
+      
+      li[class="conocenos"] a, li[class="planes"] a, li[class="contacto"] a {
+        color: black;
+      }
+      
+      li[class="conocenos"] a:hover {
+        color: white;
+      }
+      
+      li a:hover {
+        color: white;
+      }
+
+      iframe {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 250px;
+        max-width: 500;
+        height: auto;
+          }
+      #form label {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0;
+      }
+
+      
+      
+      input {
+        background-color: #e0e0e0;
+      }
+      
+      input[type="email"] {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0;
+      }
+      
+      input[type="submit"] {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0;
+        background-color: black;
+        color: white;
+        transition: all 0.3s ease;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #e91929;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:active {
+        transform: scale(0.95);
+      }
+      p {
+        font-size: 14px;
+        text-align: left;
+        color: black;
+      }
+      
+      h2 {
+        margin: 0px;
+      }
+      
+      form {
+        margin: 0 auto;
+        margin-bottom: 50px;
+      }
+      
+      #sec-conocenos, #sec-planes, #sec-contacto {
+        display: block;
+        margin: 0 auto;
+        background-color: #e0e0e0;
+        padding: 20px 0;
+        border-top: 2px solid white;
+      }
+      
+  
+      #video {
+        border-radius: 5px solid #e91929;
+      }
+      
+      .news {
+      position: relative;
+      background-color: white;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin-top: -80px;
+      z-index: 10;
+      }
+
+      .news h2 {
+        padding: 20px;
+        text-align: center;
+      }
+      
+      #video {
+        border: 3px solid #e91929; 
+        border-radius: 5px; 
+      }
+      
+      
+      .logo1, .logo2, .logo3 {
+        display: block;
+        margin: 0 auto;
+      }
+      
+      .parrafo1, .parrafo2, .parrafo3 {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+      }
+      
+      #conocenos-img, #planes-img{
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        height: auto;
+        padding-top: 210px;
+        margin-top: -210px;
+      }
+
+      #contacto-img {
+        display: block;
+        width: 70px;
+        margin: 0 auto;
+        height: auto;
+        padding-top: 208px;
+        margin-top: -208px;
+      }
+      
+      footer{
+        width: 80%;
+        padding: 10px 20px;
+        background-color: black;
+        margin: 0 auto;
+        border-radius: 5px 5px 0 0;
+        margin-top: 20px;
+        bottom: 0;
+      }
+      
+      span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+      }
+      
+      footer ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+      }
+
+      
+      .producto {
+        border-radius: 5px;
+        background-color: #eee;
+        width: 220px;
+        max-width: 320px;
+        height: 370px;
+        margin: 20px auto;
+      }
+      
+      .planes-producto {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+      
+      .level, .producto h3 {
+        text-align: center;
+        font-weight: bold;
+      }
+      
+      .level {
+        background-color: #e91929;
+        padding: 10px;
+      }
+      
+      .level, .producto {
+        border: solid 4px #e91929;
+        border-radius: 5px;
+      }
+      
+      .lista-p li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+      }
+      
+#barra2 img {
+    display: none;
+}
+
+#barra2 li {
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+}
+
+      .lista-p {
+        list-style: none;
+        font-size: 14px;
+        padding: 0 5px;
+      } 
+      
+      h3 {
+        color: #e91929;
+      }
+      
+      #conocenos, #planes, #contacto {
+        padding-top: 20px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+}
+
+@media (min-width: 768px) {
+    html {
+        scroll-behavior: smooth;
+      }
+      
+      .slider {
+        width: 100%;
+        height: 450px;
+        margin: 50px auto 0;
+        overflow: hidden;
+      }
+      
+      .slider ul {
+        display: flex;
+        padding: 0;
+        width: 400%;
+        animation: slide 20s infinite alternate ease-in-out;
+      }
+      
+      .slider li {
+        list-style: none;
+        width: 100%;
+        margin: 0;
+      } 
+      
+      .slider img {
+        width: 100%;
+        padding: 0;
+        height: auto;
+      }
+      
+      @keyframes slide {
+        0% {margin-left: 0%;}
+        20% {margin-left: 0%;}
+      
+        25% {margin-left: -100%;}
+        45% {margin-left: -100%;}
+      
+        50% {margin-left: -200%;}
+        70% {margin-left: -200%;}
+      
+        75% {margin-left: -300%;}
+        95% {margin-left: -300%;}
+      }
+      
+      main {
+        margin-top: 100px;
+      }
+      
+      body {
+        font-family: Verdana, sans-serif, calibri;
+        margin: 0 auto;
+        background-color: white;
+      }
+      
+      li {
+        list-style: none;
+        display: inline;
+        margin: 5px;
+        margin-left: 15px;
+        text-align: center;
+      }
+      
+      .nav-link {
+        text-decoration: none;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        padding: 10px
+      }
+      
+      #barra a:hover {
+        padding-left: 30px;
+        background-color: #e91929;
+        border-radius: 5px;
+      }
+      
+      #footer a:hover {
+        padding: 5px;
+        background-color: #e91929;
+        border-radius: 5px;
+      }
+      
+      
+      a:link {
+        text-decoration: none;
+        color: #e91929;
+      }
+      
+      a:active {
+        color: white;
+      }
+      
+       a:visited {
+         text-decoration: none;
+         color: #e91929;
+       }
+      
+      #nav-bar{
+        margin: 0;
+        top: 25px;
+        right: 70px;
+        position: fixed;
+        text-align: right;
+        color: black;
+        font-family: Lato, sans-serif, calibri;
+        font-weight: bold;
+      }
+      #header {
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        margin: 0;
+        top: 0;
+        position: fixed;
+        opacity: 0.9;
+      }
+      
+      #header-img{
+        position: fixed;
+        width: 200px;
+        top: -45px;
+        margin: 0;
+        left: 30px;
+        bottom: 10px;
+        cursor: pointer;
+      }
+      
+      h1, h2 {
+        text-align: center;
+      }
+      
+      
+      a {
+        margin-left: 0;
+      }
+      
+      #tel-logo{
+        width: 15px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      
+      #doc-logo {
+        width: 15px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      
+      #pers-logo {
+        width: 15px;
+        vertical-align: middle;
+        margin-right: 5px;
+        color: white;
+        
+      }
+      
+      li[class="conocenos"] a {
+        color: #e91929;
+      }
+      
+      
+      li[class="conocenos"] a:hover {
+        color: white;
+      }
+      
+      li a:hover {
+        color: white;
+      }
+      
+      iframe {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 560px;
+        height: 315px; 
+      }
+      
+      #form label {
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0;
+      }
+      
+      input {
+        background-color: #e0e0e0;
+      }
+      
+      input[type="email"] {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0;
+      }
+      
+      input[type="submit"] {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px;
+        border-radius: 5px;
+        border: 0;
+        background-color: black;
+        color: white;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 20;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #e91929;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:active {
+        transform: scale(0.95);
+      }
+      p {
+        font-size: 14px;
+        text-align: left;
+        color: black;
+      }
+      
+      h2 {
+        margin: 0px;
+      }
+      
+      form {
+        margin: 10px;
+        margin-bottom: 50px;
+      }
+      
+      #sec-conocenos, #sec-planes, #sec-contacto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e0e0e0;
+        padding: 40px;
+        border-bottom: solid 2px white;
+      }
+      
+      #sec-conocenos {
+        padding-top: 40px;
+      }
+      
+      #sec-contacto {
+        padding-bottom: 40px;
+      }
+      
+      #video {
+        border-radius: 5px solid #e91929;
+      }
+      
+      .news {
+        background-color: white;
+        padding: 60px;
+        padding-bottom: 20px;
+      }
+      
+      #video {
+        border: 3px solid #e91929; 
+        border-radius: 5px; 
+      }
+      
+      
+      .logo1, .logo2, .logo3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      
+      .parrafo1, .parrafo2, .parrafo3 {
+        display: block;
+        margin: 0 80px;
+        width: 60%;
+      }
+      
+      #conocenos-img, #planes-img, #contacto-img {
+        width: 100px;
+        margin: 0;
+      }
+      
+      footer{
+        width: 70%;
+        padding: 10px 20px;
+        background-color: black;
+        margin: 0 auto;
+        border-radius: 5px 5px 0 0;
+        margin-top: 20px;
+        bottom: 0;
+      }
+      
+      span {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        font-weight: bold;
+        color: white;
+      }
+      
+      footer ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+      
+      footer span, footer ul {
+        margin-right: 10px;
+      }
+      
+      .producto {
+        border-radius: 5px;
+        background-color: #eee;
+        width: 300px;
+        height: 350px;
+        margin: 60px 10px 20px 10px;
+      }
+      
+      .planes-producto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .level, .producto h3 {
+        text-align: center;
+        font-weight: bold;
+      }
+      
+      .level {
+        background-color: #e91929;
+        padding: 10px;
+      }
+      
+      .level, .producto {
+        border: solid 4px #e91929;
+        border-radius: 5px;
+      }
+      
+      .lista-p li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+      }
+      
+      .lista-p {
+        list-style: none;
+        font-size: 14px;
+        padding: 0 5px;
+      }
+      
+      p {
+        font-size: 16px;
+      }
+      
+      
+      
+      h3 {
+        color: #e91929;
+      }
+      
+      #conocenos, #planes, #contacto {
+        padding-top: 140px;
+        margin-top: -140px;
+      }
+
+      #barra2 {
+        display: none;
+      }
+}
+

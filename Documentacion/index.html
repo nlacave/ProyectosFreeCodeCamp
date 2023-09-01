@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
+            <header id="title-doc">PY Documentation</header>
+            <label for="navbar-toggle" class="navbar-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="navbar-menu">
+                <li><a class="nav-link" href="#introduccion">Introduccion</a></li>
+                <li><a class="nav-link" href="#tipos_de_datos">Tipos de Datos</a></li>
+                <li><a class="nav-link" href="#variables">Variables</a></li>
+                <li><a class="nav-link" href="#operadores">Operadores</a></li>
+                <li><a class="nav-link" href="#condicionales">Condicionales</a></li>
+                <li><a class="nav-link" href="#bucles">Bucles</a></li>
+                <li><a class="nav-link" href="#funciones">Funciones</a></li>
+                <li><a class="nav-link" href="#referencias">Referencias</a></li>
+            </ul>
+        </nav>
+        <div class="espaciado"></div>
+        <section class="main-section" id="introduccion" name="introduccion">
+            <header>Introduccion</header>
+            <p>Python es un lenguaje de programación de alto nivel cuya máxima es la legibilidad del código. Las
+                principales características de Python son las siguientes:</p>
+            <ul class="listas">
+                <li>Es multiparadigma, ya que soporta la programación imperativa, programación orientada a objetos y
+                    funcional.</li>
+                <li>Es multiplataforma: Se puede encontrar un intérprete de Python para los principales sistemas
+                    operativos: Windows, Linux y Mac OS. Además, se puede reutilizar el mismo código en cada una de las
+                    plataformas.</li>
+                <li>Es dinámicamente tipado: Es decir, el tipo de las variables se decide en tiempo de ejecución.</li>
+                <li>Es fuertemente tipado: No se puede usar una variable en un contexto fuera de su tipo. Si se
+                    quisiera, habría que hacer una conversión de tipos.</li>
+                <li>Es interpretado: El código no se compila a lenguaje máquina.</li>
+            </ul>
+        </section>
+        <section class="main-section" id="tipos_de_datos" name="tipos_de_datos">
+            <header>Tipos de Datos</header>
+            <p>Los tipos de datos son los siguientes:</p>
+            <ul class="listas2">
+                <li>Int (Entero): Es un tipo de dato numérico sin decimales, utilizado para representar números enteros.
+                    En la mayoría de los lenguajes de programación, los enteros son almacenados con un tamaño fijo en
+                    bits (por ejemplo, 32 bits o 64 bits) y pueden ser positivos, negativos o cero. En Python, los
+                    enteros se pueden declarar sin especificar un tipo y se pueden usar en operaciones matemáticas como
+                    la suma, la resta, la multiplicación y la división.</li>
+                <code>x = 42
+print(x) # Imprime 42</code>
+                <li>Boolean: Es un tipo de dato lógico que solo puede tomar dos valores: verdadero o falso. Es útil para
+                    representar valores de verdad o de decisión en la programación. Por ejemplo, una variable booleana
+                    puede ser usada para indicar si un usuario ha iniciado sesión o no. En Python, las variables
+                    booleanas se pueden declarar usando palabras clave como True y False.</li>
+                <code>is_logged_in = True
+print(is_logged_in) # Imprime True
+</code>
+                <li>String (Cadena de caracteres): Es un tipo de dato que representa una secuencia de caracteres
+                    (letras, números, símbolos, etc.). Las cadenas de caracteres se pueden usar para representar texto,
+                    por ejemplo, para imprimir mensajes en la pantalla o para almacenar información de texto en una
+                    variable. En Python, las cadenas de caracteres se pueden declarar entre comillas simples o dobles.
+                </li>
+                <code>name = "John Doe"
+print(name) # Imprime John Doe
+</code>
+                <li>Float (Número flotante): Es un tipo de dato numérico con decimales, utilizado para representar
+                    números reales con una precisión finita. Los números flotantes se almacenan en la computadora en
+                    formato binario, por lo que pueden haber diferencias entre la representación de un número en la
+                    computadora y su representación decimal. En Python, los números flotantes se pueden declarar con un
+                    punto decimal.</li>
+                <code>pi = 3.14
+print(pi) # Imprime 3.14
+</code>
+                <li>Listas: Son un tipo de dato que permite almacenar varios valores de diferentes tipos en una sola
+                    estructura de datos. Las listas se pueden usar para almacenar una colección de valores relacionados,
+                    como por ejemplo, los nombres de los días de la semana o los precios de una lista de productos. En
+                    Python, las listas se pueden declarar usando corchetes y separando los elementos de la lista con
+                    comas.</li>
+                <code>colors = ["red", "green", "blue"]
+print(colors) # Imprime ['red', 'green', 'blue']</code>
+            </ul>
+        </section>
+        <section class="main-section" id="variables">
+            <header>Variables</header>
+            <p>En Python, las variables se utilizan para almacenar información que se puede utilizar posteriormente en
+                el programa. Se pueden almacenar diferentes tipos de datos, como números, cadenas de texto, listas,
+                diccionarios, etc.</p>
+            <p>Para declarar una variable en Python simplemente se asigna un valor a un nombre:</p>
+            <code>nombre_de_variable = valor</code>
+        </section>
+        <section class="main-section" id="operadores">
+            <header>Operadores</header>
+            <p>Los operadores en Python son los signos matemáticos que permiten realizar operaciones aritméticas y
+                comparar valores. Algunos de los operadores más comunes en Python son:</p>
+            <code>+ (suma), - (resta), * (multiplicación), / (división), % (módulo), = (asignación), == (igualdad), != (desigualdad), > (mayor que), >= (mayor o igual que), < (menor que), <= (menor o igual que)</code>
+        </section>
+        <section class="main-section" id="condicionales">
+            <header>Condicionales</header>
+            <p>Los condicionales en Python permiten ejecutar ciertas acciones solo si se cumple una determinada
+                condición. La estructura básica de un condicional es:</p>
+            <ul>
+                <li><code>if</code></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(acciones a realizar si se cumple la condición)</li>
+                <li><code>else</code> (acciones a realizar si no se cumple la condición):</li>
+            </ul>
+            <code>if x > 0:
+    print("x es un número positivo")
+else:
+    print("x es un número negativo o cero")</code>
+        </section>
+        <section class="main-section" id="bucles">
+            <header>Bucles</header>
+            <p>Los bucles son una herramienta esencial en programación, que permiten ejecutar un bloque de código varias
+                veces. Python tiene dos tipos principales de bucles: el bucle "for" y el bucle "while".</p>
+            <p>El bucle "for" se utiliza para iterar a través de una secuencia, como una lista o una cadena de texto.
+                Por ejemplo:</p>
+            <ul>
+                <li>for elemento in secuencia:</li>
+                <li> # código a ejecutar para cada elemento en la secuencia</li>
+            </ul>
+            <code>
+for i in range(5):
+    print(i)
+# Imprime:
+# 0
+# 1
+# 2
+# 3
+# 4
+        </code>
+            <p>El bucle "while" se utiliza para repetir un bloque de código mientras se cumpla una condición. Por
+                ejemplo:</p>
+            <ul class="listas">
+                <li>while condición:</li>
+                <li> # código a ejecutar mientras se cumpla la condición</li>
+            </ul>
+            <code>
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+# Imprime:
+# 0
+# 1
+# 2
+# 3
+# 4
+        </code>
+        </section>
+        <section class="main-section" id="funciones">
+            <header>Funciones</header>
+            <p>Las funciones son una parte esencial de la programación en Python, ya que permiten organizar y reutilizar
+                el código. Las funciones en Python se definen con la palabra clave "def".</p>
+            <p>Por ejemplo, aquí hay una función que toma dos números y devuelve su suma:</p>
+            <code>
+def suma(a, b):
+    return a + b
+
+resultado = suma(3, 4)
+print(resultado) # Imprime: 7
+        </code>
+        </section>
+        <section class="main-section" id="referencias">
+            <header>Referencias</header>
+            <p>Toda la documentación de esta página está tomada de <a href="https://chat.openai.com/chat"
+                    target="_blank">ChatGPT</a></p>
+        </section>
+    </main>
+</body>
+
+</html>
